@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb://admin:admin@ac-3utyu0a-shard-00-02.dntg91x.mongodb.net:27017/test\
+      ?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=true"
+cus:
+  invalid-names:
+    - "aa"
+    - "admin"
+    - "test"

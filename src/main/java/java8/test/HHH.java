@@ -1,4 +1,4 @@
-package test;
+package java8.test;
 
 
 import lombok.AllArgsConstructor;
@@ -11,8 +11,8 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-import static test.HHH.Gender.FEMALE;
-import static test.HHH.Gender.MALE;
+import static java8.test.HHH.Gender.FEMALE;
+import static java8.test.HHH.Gender.MALE;
 
 public class HHH {
 

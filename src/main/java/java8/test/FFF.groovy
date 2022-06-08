@@ -1,16 +1,15 @@
-package test
+package java8.test
 import com.thoughtworks.qdox.JavaProjectBuilder
 import jdk.internal.util.xml.impl.ReaderUTF8
 
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
 import java.nio.file.LinkOption
-import java.nio.file.OpenOption
 import java.nio.file.Paths
 
 def builder=new JavaProjectBuilder();
 builder.setEncoding(StandardCharsets.UTF_8.toString());
-ReaderUTF8 readerUTF8=new ReaderUTF8(Files.newInputStream(Paths.get("D:\\IDEA Projects\\java8\\src\\test\\java\\test\\HHHTest.java"), LinkOption.NOFOLLOW_LINKS))
+ReaderUTF8 readerUTF8=new ReaderUTF8(Files.newInputStream(Paths.get("D:\\IDEA Projects\\java8\\src\\java8.test\\java\\java8.test\\HHHTest.java"), LinkOption.NOFOLLOW_LINKS))
 builder.addSource(readerUTF8);
 def clazz = builder.getClasses().iterator().next();
 def methodNums = clazz.getMethods();

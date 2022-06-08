@@ -1,17 +1,15 @@
-package test;
+package java8.test;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-class YY{
+class CompletableFutureDemo{
     public static void main(String[] args) {
 
         /*ExecutorService executor= Executors.newCachedThreadPool();

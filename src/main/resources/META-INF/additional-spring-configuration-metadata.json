@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "cus.invalid-names",
+      "type": "java.lang.String",
+      "description": "Description for cus.invalid-names."
+    }
+  ]
+}
