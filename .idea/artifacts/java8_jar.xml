@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="java8:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/java8_jar</output-path>
+    <root id="archive" name="java8.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="java8" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/thoughtworks/qdox/qdox/2.0.0/qdox-2.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
