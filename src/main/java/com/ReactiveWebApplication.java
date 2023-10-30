@@ -9,9 +9,9 @@ import java.util.Arrays;
 
 @SpringBootApplication
 @EnableReactiveMongoRepositories
-public class Java8Application {
+public class ReactiveWebApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Java8Application.class, args);
+        SpringApplication.run(ReactiveWebApplication.class, args);
         System.out.println(Arrays.toString(CheckUtil.INVALID_NAMES));
     }
 }
